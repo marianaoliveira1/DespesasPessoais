@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Despesas',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // is not restarted.
         primarySwatch: Colors.purple,
